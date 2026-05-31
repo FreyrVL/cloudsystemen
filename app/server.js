@@ -11,7 +11,8 @@ const server = http.createServer((req, res) => {
       </head>
       <body>
         <h1>Hello from Docker + Traefik</h1>
-	<p>This is V1.0, running on Google Cloud services</p>
+	<p>This is V2.0, running on Google Cloud services</p>
+	<p>Project has now updated to use automatic deployment after git push!</p>
       </body>
     </html>
   `);
